@@ -21,6 +21,9 @@ class CreateCoursesTable extends Migration
             $table->string('name', 45)->unique();
             $table->timestamps();
         });
+
+        $insert = new CoursesTableSeeder();
+        $insert->run();
     }
 
     /**

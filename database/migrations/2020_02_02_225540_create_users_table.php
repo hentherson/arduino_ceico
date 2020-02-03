@@ -29,6 +29,9 @@ class CreateUsersTable extends Migration
             $table->unsignedBigInteger('rol_id');
             $table->foreign('rol_id')->references('id')->on('roles');
         });
+
+        $insert = new UsersTableSeeder();
+        $insert->run();
     }
 
     /**

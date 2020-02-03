@@ -21,6 +21,9 @@ class CreateRolesTable extends Migration
             $table->string('name', 100)->unique();
             $table->timestamps();
         });
+
+        $roles = new RolesTableSeeder();
+        $roles->run();
     }
 
     /**
