@@ -94,7 +94,6 @@
                     <a href="https://github.com/laravel/laravel">GitHub</a>
                 </div>
                 <br>
-                @lang('login.name')
             </div>
         </div>
     </body>
