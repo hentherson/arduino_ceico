@@ -70,3 +70,32 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-source software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+## Arquitecture
+
+- Laravel.
+- Migrations.
+- Seeders.
+- Lang.
+- Blade.
+- Route.
+- Asset.
+- ORM.
+- Arquitecture.
+- MVC.
+- Model.
+- Controller.
+- View.
+- Use case.
+- Interfaces or contrats.
+- Design patterns.
+- Repository.
+- Singlenton.
+- Facade.
+- Javascript.
+- functions.
+- Ajax.
+- Request Post, Get, Put y Delete.
+- JSON.
+- Errors.
+- Exception.
